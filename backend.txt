@@ -1,0 +1,33 @@
+1. create a folder
+2. generate package.json(npm install -y)
+3.create index.js file
+4. create .env file
+5.install packages
+   -express
+   -cors
+   -dotenv
+6. create .gitignore file
+7. update  package.json script with start command(start node index.js)
+8. start creating express server in index.js file
+    -import dotenv package
+    -import express
+    -import cors
+    -create express server
+    -set up port number for server
+    -use cors,json parser in server app
+    -run at the server app in a specified port
+9. create db and coolection in mongodb atlas, copy the connection string
+10. paste collection string in .env file with password database name
+11. define steps to connect node app with mongodb database
+      - create db folder. Define db connection, create a connection.js file
+      -get connection string from .env file to connection.js folder
+         -to get connection string from .env fle: process.env
+      -connect node app with mongodb using connection string with help of mongoose
+      -import 
+14. create routes to resolve client request
+    -create routes folder in server folder, to define route create router.js  file
+    -in router.js file
+       -import express
+       -create 
+
+
